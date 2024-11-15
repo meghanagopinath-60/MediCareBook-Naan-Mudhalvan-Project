@@ -1,0 +1,362 @@
+@import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #D4F6FF;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.content {
+  flex: 1;
+}
+
+.home-container {
+  max-width: 100vw;
+  height: 100vh;
+  display: flex;
+}
+
+.left-side,
+.right-side {
+  flex: 1;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.left-side img {
+  max-width: 100%;
+  height: 70%;
+
+}
+
+.right-side {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+span {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.f-letter {
+  font-size: 3em;
+}
+
+.s-letter {
+  font-size: 2.2em;
+}
+
+.t-letter {
+  font-size: 1.5em;
+}
+
+/************************************************************/
+.main {
+  padding: 10px;
+  height: 92.1vh;
+  /* background-color: aqua; */
+}
+
+.layout {
+  display: flex;
+}
+
+.sidebar {
+  min-height: 100%;
+  height: 88vh;
+  width: 17vw;
+  border-radius: 5px;
+  background-color: rgb(153, 145, 145);
+  box-shadow: 0 0 2px grey;
+  margin-right: 20px;
+  color: white;
+}
+
+.content {
+  width: 100%;
+  height: 100%;
+}
+
+.header {
+  height: 10vh;
+  margin-bottom: 20px;
+  box-shadow: 0 0 2px grey;
+  background-color: whitesmoke;
+  border-radius: 5px;
+}
+
+.body {
+  height: 75vh;
+  margin-bottom: 20px;
+  box-shadow: 0 0 2px grey;
+  background-color: whitesmoke;
+  border-radius: 5px;
+}
+
+.logo h2 {
+  text-align: center;
+  margin: 20px 0px;
+  max-width:100%;
+  padding:10px;
+}
+
+.wrap{
+  white-space: normal; /* Ensure wrapping is allowed */
+   word-wrap: break-word; /* Allow words to break if they are too long */
+   word-break: break-word; /* Optional, in case of very long words */
+   text-align: center;
+}
+
+.menu {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.menu-items {
+  margin-top: 20px;
+}
+
+.menu-items p {
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+
+.menu-items .icons {
+  font-size: 1.2rem;
+  margin: 0 15px;
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+  height: 70px;
+  justify-content: flex-start;
+  margin: auto 15px;
+}
+
+.notify {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+sup{
+  margin-right: 15px;
+}
+
+.notify .icon {
+  margin-right: 10px;
+  font-size: 1.5rem;
+}
+
+
+/**********************************************/
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 2px grey;
+  background-color: whitesmoke;
+  max-width: 700px;
+  width: 100%;
+}
+
+.component {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  padding: 20px;
+  border: 2px dashed grey;
+  border-radius: 10px;
+  width: 100%;
+  height: 200px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.component p {
+  margin: 10px 0;
+  color: grey;
+}
+
+.btn-progress {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.btn-progress button {
+  color: grey;
+  padding: 10px 20px;
+  margin-right: 10px;
+}
+
+.btn-progress button:hover {
+  box-shadow: 0 0 10px grey;
+}
+
+progress {
+  width: 100%;
+  height: 10px;
+  appearance: none;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+}
+
+progress::-webkit-progress-bar {
+  background-color: #f0f0f0;
+  border-radius: 10px;
+}
+
+progress::-webkit-progress-value {
+  background-color: grey;
+  border-radius: 10px;
+}
+
+/* Sidebar Styling */
+.sidebar {
+  background-color: #3b3b3b; /* Darker sidebar background */
+  color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Slight shadow for depth */
+  padding: 20px;
+}
+
+.logo h2 {
+  color: #f5f5f5; /* Light text for sidebar logo */
+}
+
+.menu-items {
+  padding: 10px 0;
+  color: #bbb; /* Slightly lighter text color */
+}
+
+.menu-items.active, .menu-items:hover {
+  color: #fff;
+  background-color: #505050; /* Highlight on active or hover */
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Header Styling */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  background-color: #f8f8f8; /* Light background for header */
+  border-bottom: 1px solid #ddd;
+}
+
+.header-content h3 {
+  color: #333; /* Darker text color for header content */
+}
+
+.notify .icon {
+  color: #777; /* Lighter icon color */
+}
+
+.notify:hover .icon {
+  color: #333; /* Darker on hover */
+}
+
+/* Table Styling */
+table th {
+  background-color: #4a90e2; /* Header color for table */
+  color: #fff;
+}
+
+table tbody tr:hover {
+  background-color: #f5f5f5; /* Row hover color */
+}
+
+/* Button Styling */
+button.outline-success {
+  background-color: #28a745;
+  color: white;
+}
+
+button.outline-success:hover {
+  background-color: #218838;
+}
+
+button.outline-danger {
+  background-color: #dc3545;
+  color: white;
+}
+
+button.outline-danger:hover {
+  background-color: #c82333;
+}
+
+/* General Styling for Alerts and Headings */
+h2, h4 {
+  color: #333; /* Standard text color for headings */
+}
+
+.alert-info {
+  background-color: #e9ecef; /* Light background for alert */
+  color: #333;
+}
+
+.site-layout .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu-items.active {
+  background-color: #4e73df;
+  color: white;
+  font-weight: bold;
+  border-radius: 8px;
+  transition: all 0.3s;
+}
+
+.table thead th {
+   background-color: #4e73df;
+   color: white;
+   text-align: center;
+}
+.table tbody tr td {
+   vertical-align: middle;
+   text-align: center;
+}
+.align-middle {
+   text-align: center;
+}
+.mb-3.mt-3 input {
+   border-radius: 20px;
+}
