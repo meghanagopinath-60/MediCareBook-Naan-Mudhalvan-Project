@@ -41,7 +41,7 @@ To get started with the MediCareBook frontend, follow these steps:
 
 1. **Clone the Repository**:  
     ```bash
-    git clone https://github.com/yourusername/MediCareBook.git
+    git clone [https://github.com/meghanagopinath-60/MediCareBook.git](https://github.com/meghanagopinath-60/MediCareBook-Naan-Mudhalvan-Project/edit/main/MediCareBook)
     ```
 2. **Navigate to the Frontend Directory**:  
     ```bash
