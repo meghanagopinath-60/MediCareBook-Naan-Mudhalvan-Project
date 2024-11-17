@@ -116,7 +116,7 @@ npm start
 
 **Open Your Browser**:  
    Go to [http://localhost:3000](http://localhost:3000) to see the application in action.
-\
+
 # API Endpoints
 
 ## User Endpoints  
@@ -149,7 +149,7 @@ The backend uses **MongoDB** for data storage.
 To run tests for the backend application, use the following command:  
 ```bash
 npm test
-'''
+```
 ## Demo  
 [MediCareBook Demo](https://drive.google.com/file/d/1-RSa2yp2xc60g5JZwF6f-A63LTF0OhFP/view?usp=drive_link)
 
