@@ -42,7 +42,7 @@ The backend is built with **Node.js** and **Express.js**, offering a **RESTful A
 
 1. **Clone the Repository**:  
     ```bash
-    git clone [https://github.com/meghanagopinath-60/MediCareBook.git](https://github.com/meghanagopinath-60/MediCareBook-Naan-Mudhalvan-Project/tree/main/MediCareBook)
+    git clone https://github.com/meghanagopinath-60/MediCareBook.git
     ```
 
 2. **Navigate to the Backend Directory**:  
