@@ -11,6 +11,13 @@ The platform includes features for:
 With secure session handling enabled by **JWT tokens** and **bcrypt-secure password hashing**, MediCareBook ensures data privacy and seamless functionality.  
 
 ---
+## Demo  
+[MediCareBook Demo](https://drive.google.com/file/d/1-RSa2yp2xc60g5JZwF6f-A63LTF0OhFP/view?usp=drive_link)
+
+## Report  
+[MediCareBook Report](https://docs.google.com/document/d/11kNDfC1DV_kue4m3MX7GSQ-Fsf7JLki2ntltZS_V744/edit?usp=sharing)
+
+---
 
 ## Team Members  
 - **Isha R**: Project Coordinator  
@@ -27,7 +34,6 @@ With secure session handling enabled by **JWT tokens** and **bcrypt-secure passw
 - [API Endpoints](#api-endpoints)  
 - [Database Configuration](#database-configuration)  
 - [Running Tests](#running-tests)  
-- [Demo](#demo)  
 
 ---
 
@@ -150,8 +156,6 @@ To run tests for the backend application, use the following command:
 ```bash
 npm test
 ```
-## Demo  
-[MediCareBook Demo](https://drive.google.com/file/d/1-RSa2yp2xc60g5JZwF6f-A63LTF0OhFP/view?usp=drive_link)
 
 
 
